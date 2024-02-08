@@ -1,6 +1,6 @@
 const sumAll = function(arg1, arg2) {
   let sum = 0;
-  if (typeof(arg1) === "string" || typeof(arg2) === "string") {
+  if (typeof(arg1) !== "number" || typeof(arg2) !== "number") {
     return "ERROR";
   }else if (arg1 < 0 || arg2 < 0) {
     return "ERROR";
