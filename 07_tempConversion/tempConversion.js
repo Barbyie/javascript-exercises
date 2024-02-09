@@ -1,6 +1,6 @@
 const convertToCelsius = value => {
   let fahrenheit = ((value - 32) * 5) / 9
-  return Math.round(fahrenheit);
+  return Number(fahrenheit.toFixed(1));
 };
 
 const convertToFahrenheit = value => {
