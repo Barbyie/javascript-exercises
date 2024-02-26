@@ -16,7 +16,11 @@ const sum = function(array) {
   };
 };
 
-const multiply = function() {
+const multiply = function(array) {
+  
+  return array.reduce((total, num1) => {
+    return total * num1; 
+  });
 
 };
 
